@@ -1,0 +1,14 @@
+{
+  "name": "expressbasic",
+  "version": "1.0.0",
+  "description": "This is basic expercise of express node framework",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dipali",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

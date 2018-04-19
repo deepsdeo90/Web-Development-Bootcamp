@@ -1,0 +1,31 @@
+body{
+	font-family: lato;
+	background: url(https://images.unsplash.com/photo-1507759244195-868223d63143?auto=format&fit=crop&w=1500&q=80);
+	background-size: cover;
+	background-position: center;
+	/*make font color white*/
+		color: white;
+}
+#center{
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1) 
+
+}
+/* to adjust background image height as img gets height of  html and our html is pretty short on mobile mode*/
+html
+{
+	height: 100%;
+}
+hr{
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+h1{
+font-size: 5.0em;
+font-weight: bold;
+
+}

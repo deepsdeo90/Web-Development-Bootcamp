@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First jQuery excercise</title>
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+ 
+</head>
+<body>
+<div>Div 1</div>
+<div class="highlight">Div 2</div>
+<div id="third">Div 3</div>
+<div class="highlight">Div 4</div>
+ <script type="text/javascript" >
+  	/*select all divs and give them purple backgound*/
+   $("div").css('background-color','purple');
+   /*select all divs with class  "highlight" and make them 200px wide*/
+   $(".highlight").css("width","200px");
+   /*select div with id "third" and give orange border*/
+   $("#third").css("border","10px solid orange");
+
+   /*select the first div only change fnt color to pink */
+   $("div:first-of-type").css("color","pink");
+  </script>
+</body>
+</html>
